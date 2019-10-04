@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import Toggler from './Toggler';
+import Toggler from './components/Toggler';
 
 function App() {
   return (

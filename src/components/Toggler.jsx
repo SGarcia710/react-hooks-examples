@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import useToggle from './hooks/useToggle';
+import React from 'react';
+import useToggle from '../hooks/useToggle';
 
 const Toggler = () => {
   const [isHappy, toggleIsHappy] = useToggle(true);
